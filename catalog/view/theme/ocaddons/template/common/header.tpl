@@ -16,54 +16,15 @@
 <?php foreach ($links as $link) { ?>
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
-<link rel="stylesheet" type="text/css" href="catalog/view/theme/ocaddons/stylesheet/stylesheet.css" />
-<link rel="stylesheet" type="text/css" href="catalog/view/theme/ocaddons/stylesheet/colors.css" />
 <!-- google fonts -->
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Exo:300,400,600,700|Open+Sans:400,600,700" />
-<style type="text/css">
-.primary-define h1,
-.primary-define h2,
-.primary-define h3,
-.primary-define h4,
-.primary-define h5,
-.primary-define h6,
-.primary-define .button,
-.primary-define .htabs a,
-.primary-define .box-heading,
-.primary-define .breadcrumb a,
-.primary-define .mainmenu li a,
-.primary-define .treemenu li a,
-.primary-define .box-product .name a,
-.primary-define .box-product .cart a,
-.primary-define .box-product .price,
-.primary-define .box-product .price-label,
-.primary-define .box-product .wishlist a,
-.primary-define .box-product .compare a,
-.primary-define .product-info .price,
-.primary-define .product-info .review a,
-.primary-define .product-info .cart > div > a {
-	font-family: "Exo";
-}
-body,
-.primary-define input,
-.primary-define select,
-.primary-define button,
-.primary-define textarea,
-.primary-define .product-info .reward,
-.primary-define .product-info .discount,
-.primary-define .product-info .price-tax {
-	font-family: "Open Sans";
-}
-</style>
 <!-- google fonts /-->
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/ocaddons/stylesheet/stylesheet.min.css" />
 <?php foreach ($styles as $style) { ?>
 <link rel="<?php echo $style['rel']; ?>" type="text/css" href="<?php echo $style['href']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
-<script type="text/javascript" src="catalog/view/javascript/jquery/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="catalog/view/javascript/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
-<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css" />
-<script type="text/javascript" src="catalog/view/javascript/common.js"></script>
-<script type="text/javascript" src="catalog/view/theme/ocaddons/js/utils.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="catalog/view/theme/ocaddons/js/all.min.js"></script>
 <?php foreach ($scripts as $script) { ?>
 <script type="text/javascript" src="<?php echo $script; ?>"></script>
 <?php } ?>

@@ -246,7 +246,7 @@ small {
 	background-color: #eee;
 }
 .primary-define #header #toppanel {
-	padding: 25px 0;
+	padding: 10px 0;
 }
 .primary-define #topbar .wrapper {
 	padding: 9px 0;
@@ -302,6 +302,14 @@ small {
 }
 .primary-define #toppanel #logo {
 	float: left;
+	margin-top:25px;
+}
+
+.primary-define #toppanel #logo > a {
+  font-size: 50px;
+}
+.primary-define #toppanel #logo > a:hover {
+	text-decoration: none;
 }
 .primary-define #header #cart {
 	float: right;

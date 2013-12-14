@@ -104,9 +104,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 </div>
 <div id="toppanel">
 <div class="wrapper clearafter">
-  <?php if ($logo) { ?>
-  <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
-  <?php } ?>
+  <div id="logo"><a href="<?php echo $home; ?>">OCAddons</a></div>
   <?php echo $cart; ?>
   <div id="search">
   <div id="search-inner">
